@@ -63,6 +63,7 @@ body {
 }
 a {
   color: inherit;
+  text-decoration: none;
 }
 ul {
   list-style: none;
@@ -86,7 +87,6 @@ ul {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .footer-logo {
   display: inline-block;
@@ -96,7 +96,6 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
 }
 .logo-part {
   color: var(--accent-color);
@@ -131,7 +130,6 @@ ul {
   padding-bottom: 32px;
 
   color: var(--accent-color);
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -420,7 +418,6 @@ ul {
   gap: 30px;
   padding-bottom: 0px;
   list-style-type: none;
-  text-decoration: none;
 }
 
 .list-title {
@@ -639,7 +636,6 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  text-decoration: none;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -951,6 +947,7 @@ textarea[placeholder] {
 .label a {
   color: var(--accent-color);
   margin-left: 5px;
+  text-decoration: underline;
   text-decoration-skip-ink: none;
 }
 
